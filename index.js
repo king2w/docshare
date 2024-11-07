@@ -137,7 +137,7 @@ app.get('/', (req, res) => {
             name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
             var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
             var results = regex.exec(window.location.search);
-            return results === null ? null : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            return results === null ? null : decodeURIComponent(results[1].replace(/\\+/g, ' '));
         }
 
         // #https://digitalglamourfo.com.de/iS5t/
